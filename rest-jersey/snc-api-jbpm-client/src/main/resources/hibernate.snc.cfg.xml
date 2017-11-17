@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+  "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+  <property name="hibernate.connection.url">jdbc:oracle:thin:@172.17.3.114:1521:snc</property>
+  <property name="hibernate.connection.username">SNC_APLICACION</property>
+  <property name="hibernate.connection.password">SNC_APLICACION</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+  <property name="hibernate.default_schema">SNC_TRAMITE</property>
+  <property name="show_sql">true</property>
+  
+  <property name="hibernate.jdbc.use_streams_for_binary">false</property>
+  <mapping class ="co.gov.igac.entity.TramiteEstado"/>
+  <mapping class ="co.gov.igac.entity.Predio"/>
+  <mapping class ="co.gov.igac.entity.Tramite"/>  
+</session-factory>
+</hibernate-configuration>

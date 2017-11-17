@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+ "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+  <!-- JNDI Servidor de aplicaciones -->  
+  <!--
+  <property name="hibernate.connection.datasource">java:jboss/datasources/jbpmDS</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <property name="show_sql">true</property>
+  <property name="format_sql">true</property>
+  <property name="hbm2ddl.auto">validate</property>
+	--> 
+  
+   
+  <!-- PRUEBAS KOGHI --> 
+  <property name="hibernate.connection.url">jdbc:oracle:thin:@//172.17.3.114:1521/SNCALFA</property>
+  <property name="hibernate.connection.username">JBPM</property>
+  <property name="hibernate.connection.password">JBPM.2018</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+  <property name="hibernate.default_schema">JBPM</property>
+  <property name="show_sql">true</property>
+  
+  
+  
+  <!-- PRUEBAS IGAC 
+  <property name="hibernate.connection.url">jdbc:oracle:thin:@//172.19.1.25:1521/sncalfa</property>
+  <property name="hibernate.connection.username">JBPMQA</property>
+  <property name="hibernate.connection.password">JBPMQA.2018</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+  <property name="hibernate.default_schema">JBPMQA</property>
+  <property name="show_sql">true</property>
+  --> 
+  <property name="hibernate.c3p0.min_size">5</property>
+  <property name="hibernate.c3p0.max_size">20</property>
+  <property name="hibernate.c3p0.timeout">300</property> 
+  <property name="hibernate.c3p0.max_statements">50</property> 
+  <property name="hibernate.c3p0.idle_test_period">3000</property>
+  
+  <property name="hibernate.jdbc.use_streams_for_binary">false</property>
+  <mapping class ="co.gov.igac.entity.Groups"/>
+  <mapping class ="co.gov.igac.entity.Users"/>
+ </session-factory>
+</hibernate-configuration>
+
+
+
