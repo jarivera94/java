@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.kie.connection</groupId>
+	<artifactId>RemoteClient</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<repositories>
+			<repository>
+				<id>jboss-public-repository-group</id>
+				<name>JBoss Public Repository Group</name>
+				<url>http://repository.jboss.org/nexus/content/groups/public/</url>
+				<releases>
+					<enabled>true</enabled>
+					<updatePolicy>never</updatePolicy>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+					<updatePolicy>daily</updatePolicy>
+				</snapshots>
+			</repository>
+		</repositories>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.kie.server/kie-server-client -->
+		<dependency>
+			<groupId>org.kie.server</groupId>
+			<artifactId>kie-server-client</artifactId>
+			<version>7.4.1.Final</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jboss.logging/jboss-logging -->
+		<dependency>
+			<groupId>org.jboss.logging</groupId>
+			<artifactId>jboss-logging</artifactId>
+			<version>3.3.1.Final</version>
+		</dependency>
+		
+
+	</dependencies>
+</project>
