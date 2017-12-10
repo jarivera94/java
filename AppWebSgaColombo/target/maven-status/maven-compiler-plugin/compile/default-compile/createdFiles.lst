@@ -1,0 +1,7 @@
+com\sga\bean\PersonaUserBean.class
+com\sga\entity\User.class
+com\sga\servicio\PersonaUserService.class
+com\sga\eis\PerssonaUserDaoImpl.class
+com\sga\entity\Persona.class
+com\sga\servicio\PersonaUserServiceImpl.class
+com\sga\eis\PersonaUserDao.class

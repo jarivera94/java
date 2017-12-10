@@ -1,0 +1,10 @@
+com\spring\config\InitConfig.class
+com\spring\controller\PersonaRestController.class
+com\spring\model\Usuario.class
+com\spring\service\IservicePersona.class
+com\spring\dao\IpersonaDao.class
+com\spring\dao\PersonaDaoImpl.class
+com\spring\model\Persona.class
+com\spring\config\WebConfig.class
+com\spring\config\HibernateConfiguration.class
+com\spring\service\PersonaServiceImpl.class

@@ -1,0 +1,10 @@
+C:\workspace\WebServicesSpring\src\main\java\com\spring\controller\PersonaRestController.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\service\IservicePersona.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\config\WebConfig.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\model\Persona.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\model\Usuario.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\dao\IpersonaDao.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\config\InitConfig.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\config\HibernateConfiguration.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\service\PersonaServiceImpl.java
+C:\workspace\WebServicesSpring\src\main\java\com\spring\dao\PersonaDaoImpl.java
